@@ -8,6 +8,11 @@ import restaurant from "../assets/restaurant.jpg"
 import plane from "../assets/plane.jpg"
 import confetti from "../assets/confetti.jpg"
 
+import facebook from "../assets/facebook.svg"
+import youtube from "../assets/youtube.svg"
+import twitter from "../assets/twitter.svg"
+import pinterest from "../assets/pinterest.svg"
+import instagram from "../assets/instagram.svg"
 
 const chooses = [
     {
@@ -67,4 +72,6 @@ const articles = [
     }
 ]
 
-export { chooses, articles }
+const companies = [ facebook, youtube, twitter, pinterest, instagram ]
+
+export { chooses, articles, companies }
