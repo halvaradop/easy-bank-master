@@ -63,7 +63,7 @@ export default {
     },
   },
   plugins: [
-    plugin(({ addVariant }) => {
+    plugin(({ matchUtilities }) => {
       
     }),
   ],
