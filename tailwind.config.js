@@ -35,7 +35,8 @@ export default {
         '9.5': '9.5rem',
         '10': '10rem',
         '85': '85%',
-        '90': '90%'
+        '90': '90%',
+        main: 'calc(100vh - 8rem)'
       },
       fontSize: {
         xs: '1.4rem',
@@ -43,7 +44,9 @@ export default {
         md: '1.8rem',
         base: '2.4rem',
         lg: '3.2rem',
-        xl: '4.2rem'
+        xl: '4.2rem',
+        '2xl': '4.5rem',
+        '3xl': '4.8rem'
       },
       borderRadius: {
         sm: '0.6rem',
@@ -63,9 +66,7 @@ export default {
     },
   },
   plugins: [
-    plugin(({ matchUtilities }) => {
-      
-    }),
+    
   ],
 }
 
