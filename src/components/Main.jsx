@@ -14,7 +14,7 @@ const Main = () => {
             <section className="base:w-85 base:h-main base:mx-auto base:grid base:grid-cols-[0.6fr_1fr] base:items-center base:gap-x-3">
                 <figure className="max-h-[55rem] relative overflow-hidden base:w-[150%] base:h-full base:max-h-main base:order-1 base:overflow-visible">
                     <Picture className="h-full block" classImg="w-full max-h-[65rem] base:h-full base:max-h-none" mobile={mobile} desktop={desktop} alt="background image" breakpoint="900px" />
-                    <img className="max-h-[60rem] mx-auto absolute -top-[30%] inset-x-0 base:-top-[15%]" src={mockups} alt="mockups of devices" />
+                    <img className="max-h-[60rem] mx-auto absolute -top-[30%] inset-x-0 base:max-h-[70rem] base:-top-[15%]" src={mockups} alt="mockups of devices" />
                 </figure>
                 <section className="w-90 mx-auto mb-10 text-center sm:mb-[15rem] base:w-full base:m-0 base:text-start">
                     <h1 className="text-blue text-xl/tight sm:text-2xl/tight">Next generation digital banking</h1>
