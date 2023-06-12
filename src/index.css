@@ -14,4 +14,17 @@
     font-size: 62.5%;
     font-family: 'Public Sans', sans-serif;
   }
+
+  body::-webkit-scrollbar {
+    width: 0.7rem;
+  }
+
+  body::-webkit-scrollbar-track-piece {
+    margin: 0.2rem 0;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    border-radius: 2rem;
+    background: linear-gradient(to bottom, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  }
 }
